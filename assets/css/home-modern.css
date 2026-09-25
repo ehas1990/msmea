@@ -330,7 +330,7 @@
 @media (max-width: 1199.98px) {
     .home-hero-v2 {
         min-height: 88vh;
-        height: 60vh;
+        height: 80vh;
     }
 
     .progression-v2.d-flex.flex-column.gap-3.ms-lg-5 {
@@ -343,7 +343,7 @@
 @media (max-width: 991.98px) {
     .home-hero-v2 {
         min-height: 80vh;
-        height: 60vh;
+        height: 80vh;
     }
 
     .progression-v2.d-flex.flex-column.gap-3.ms-lg-5 {
