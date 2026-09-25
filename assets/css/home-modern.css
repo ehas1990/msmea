@@ -332,6 +332,11 @@
         min-height: 88vh;
         height: 60vh;
     }
+
+    .progression-v2.d-flex.flex-column.gap-3.ms-lg-5 {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+    }
 }
 
 
@@ -339,6 +344,11 @@
     .home-hero-v2 {
         min-height: 80vh;
         height: 60vh;
+    }
+
+    .progression-v2.d-flex.flex-column.gap-3.ms-lg-5 {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
     }
 
     .home-hero-overlay-v2 {
