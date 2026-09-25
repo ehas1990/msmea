@@ -391,6 +391,10 @@
         padding-bottom: 60px;
     }
 
+    .progression-item-v2.p-3.rounded.bg-white.bg-opacity-10.d-flex.align-items-center {
+        padding: 0.4rem !important;
+    }
+
     .home-hero-content-v2 {
         padding: 120px 15px;
     }
