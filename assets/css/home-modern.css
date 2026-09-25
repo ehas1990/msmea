@@ -342,8 +342,8 @@
 
 @media (max-width: 991.98px) {
     .home-hero-v2 {
-        min-height: 80vh;
-       height: 80vh;
+        min-height:70vh;
+       
     }
 
     .progression-v2.d-flex.flex-column.gap-3.ms-lg-5 {
