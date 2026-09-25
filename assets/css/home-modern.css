@@ -427,6 +427,9 @@
     .footer__bottom img {
         width: 30% !important;
     }
+    .logo img {
+    width: 120px;
+}
 
     .home-hero-v2 {
         min-height: 82vh;
