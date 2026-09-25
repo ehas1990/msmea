@@ -1,0 +1,359 @@
+/* Modern About Page Redesign */
+.about-modern {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #ffffff;
+    font-family: inherit;
+    color: inherit;
+}
+
+.about-modern h2,
+.about-modern h3,
+.about-modern h4,
+.about-modern h5,
+.about-modern h6 {
+    font-family: inherit;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-modern p {
+    font-family: inherit;
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.about-modern .eyebrow {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: #0b2e59;
+    /* A standard corporate blue, assuming similar to existing */
+    position: relative;
+    padding-left: 45px;
+}
+
+.about-modern .eyebrow::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 2px;
+    background-color: #e94d65;
+    /* existing red/pink accent color if applicable, let's use inherit or generic orange */
+}
+
+/* 1. Intro Section */
+.about-intro {
+    padding-bottom: 80px;
+}
+
+.about-intro .intro-heading {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.about-intro .intro-lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #444;
+}
+
+.about-intro .intro-image-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.about-intro .intro-img-main {
+    width: 85%;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+.about-intro .intro-img-secondary {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 45%;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    z-index: 3;
+    border: 8px solid #fff;
+}
+
+.about-intro .intro-shape {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(#ccc 2px, transparent 2px);
+    background-size: 15px 15px;
+    z-index: 1;
+}
+
+/* 2. Mission Section */
+.about-mission {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+
+.about-mission .mission-statement {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-right: 30px;
+}
+
+.about-mission .mission-content p {
+    margin-bottom: 20px;
+}
+
+.about-mission .mission-highlight {
+    font-weight: 600;
+    color: #111;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 2px;
+}
+
+/* 3. Future Ready Section */
+.about-future {
+    padding-bottom: 80px;
+}
+
+.about-future .future-heading {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.about-future .future-progression {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.about-future .future-step {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.about-future .future-arrow {
+    color: #bbb;
+    font-size: 1.2rem;
+}
+
+/* 4. Values Section */
+.about-values {
+    padding-bottom: 80px;
+}
+
+.about-values .values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.about-values .value-card {
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-values .value-card:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+    transform: translateY(-5px);
+    border-color: #ddd;
+}
+
+.about-values .value-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.about-values .value-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* 5. Vision Section */
+.about-vision {
+    padding: 100px 0;
+    background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-vision .eyebrow {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.about-vision .eyebrow::before {
+    background-color: #fff;
+}
+
+.about-vision .vision-statement {
+    font-size: 2.2rem;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    color: #ffff;
+}
+
+/* 6. Commitment Section */
+.about-commitment {
+    padding-bottom: 80px;
+}
+
+.about-commitment .commitment-timeline {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+
+.about-commitment .commitment-timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 10px;
+    bottom: 10px;
+    width: 2px;
+    background-color: #eee;
+}
+
+.about-commitment .timeline-item {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.about-commitment .timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.about-commitment .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 6px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 3px solid #333;
+    z-index: 2;
+}
+
+.about-commitment .timeline-text {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #222;
+}
+
+.about-commitment .commitment-paragraph {
+    font-size: 1.15rem;
+    color: #555;
+    background: #fdfdfd;
+    padding: 30px;
+    border-left: 4px solid #333;
+    border-radius: 0 8px 8px 0;
+}
+
+/* 7. Final Section */
+.about-final {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.about-final .final-statement {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-final .final-sub {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .about-intro .intro-image-wrapper {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .about-mission .mission-statement {
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+
+    .about-values .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-vision {
+        padding: 60px 20px;
+    }
+
+    .about-vision .vision-statement {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-values .values-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-future .future-progression {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .about-future .future-arrow {
+        transform: rotate(90deg);
+        margin-left: 20px;
+    }
+}
